@@ -57,6 +57,7 @@ main div img{
 }
 main div p{
     font-size: 20px;
+    width: 70%;
 }
 main div hr{
     width: 50%;
@@ -116,6 +117,7 @@ span a{
     header{
         padding-top: 2.5%;
         padding-bottom: 2%;
+        justify-content: center;
     }
     main div{
         width: 90%;
@@ -125,5 +127,9 @@ span a{
     }
     main div p{
         width: 80%;
+    }
+    nav{
+        padding-right: 0%;
+        padding: 0%;
     }
 }
