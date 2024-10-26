@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(31, 32, 37) 100%);
+}
+header{
+    display: flex;
+    justify-content: center;
+
+}
+header div{
+    width: 40%;
+    font-family: "Gabarito";
+    display:flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+header div img{
+    width: 12.5%;
+    padding: 1%;
+    
+}
+nav{
+    display: flex;
+    gap: 10%;
+    padding-right: 2%;
+}
+nav a{
+    color: white;
+   font-size: large;
+}
+nav a:hover{
+    background-color: rgb(53, 53, 53);
+}
+hr{
+    width: 30%;
+    background-color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+main div{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 12.5%;
+}
+main div img{
+    width: 50%;
+}
+main div p{
+    font-size: 20px;
+}
+main div hr{
+    width: 50%;
+}
+i{
+    background-color: rgba(0, 255, 255, 0.295);
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+    width: 100%;
+    margin-left: 0%;
+    justify-content: center;
+    padding-bottom: 2.5%;
+}
+footer img{
+    width: 5%;
+}
+footer span{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    gap: 2.5%;
+}
+span a{
+    color: white;
+}
+.fade-in {
+    opacity: 0; /* Inicialmente invisível */
+    animation: fadeIn 1s ease-in-out forwards; /* Animação de 2s */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@media  screen and (max-width: 600px) {
+    header div{
+        justify-content: center; 
+    }
+    header div img{
+        display: none;
+    }
+    nav a{
+        font-size: 22.5px;
+    }
+    hr{
+        width:40%;
+    }
+    header{
+        padding-top: 2.5%;
+        padding-bottom: 2%;
+    }
+    main div{
+        width: 90%;
+    }
+    main div img{
+        width: 60%;
+    }
+    main div p{
+        width: 80%;
+    }
+}
