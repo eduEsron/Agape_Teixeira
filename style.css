@@ -185,10 +185,17 @@ span p i{
         display: none;
     }
     nav a{
-        font-size: x-large
+        font-size: large;
+    }
+    .ministNav a{
+        font-size: x-large;
     }
     hr{
         width:40%;
+    }
+    .minH1 h1{
+        font-size: x-large;
+        
     }
     header{
         padding-top: 2.5%;
