@@ -27,7 +27,10 @@ nav{
 }
 nav a{
     color: white;
-   font-size: large;
+    font-size: small;
+}
+.ministNav a{
+    font-size: medium;
 }
 nav a:hover{
     background-color: rgb(53, 53, 53);
@@ -92,7 +95,80 @@ span a{
     opacity: 0; /* Inicialmente invisível */
     animation: fadeIn 1s ease-in-out forwards; /* Animação de 2s */
 }
+.minH1{
+    display: flex;
+    justify-content: center;
+}
+.minH1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    
+}
+.MinContainer{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 0 15%;
+    align-items: end;
+}
+.minSpan h2{
+    padding-top: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#gps{
+    font-size: 23px;
+}
+.MinContainer div{
+    background-color: white;
+    border-radius: 0.3rem;
+    flex-basis: 100%;
+    padding-bottom: 0%;
+}
+.MinContainer div img{
+    width: 100%;
+    height: 70%;
+    border-radius: 0.3rem;
+}
 
+span{
+    display: flex;
+    justify-content: center;
+}
+span p{
+    color: white;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+span p i{
+    background-color: transparent;
+}
+.contatoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contatoContainer div{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    gap: 25px;
+    margin: 10%;
+}
+.contatoContainer div li{
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -109,7 +185,7 @@ span a{
         display: none;
     }
     nav a{
-        font-size: 22.5px;
+        font-size: x-large
     }
     hr{
         width:40%;
@@ -131,5 +207,16 @@ span a{
     nav{
         padding-right: 0%;
         padding: 0%;
+    }
+    .MinContainer{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 0 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #gps{
+        font-size: 25.5px;
     }
 }
