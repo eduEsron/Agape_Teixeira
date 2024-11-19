@@ -190,6 +190,10 @@ span p i{
     .ministNav a{
         font-size: x-large;
     }
+    .ministNav{
+         margin-left: 30%;
+        margin-right: 30%;
+    }
     hr{
         width:40%;
     }
